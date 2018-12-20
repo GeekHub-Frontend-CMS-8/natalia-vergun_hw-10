@@ -1,0 +1,128 @@
+.contacts
+  background-color: #75b4aa
+  background-image: url("../img/bg_contact.png")
+  background-repeat: no-repeat
+  background-position: center
+  background-size: cover
+  &__row-box
+    display: flex
+    flex-direction: row
+    flex-wrap: wrap
+    @media (min-width: 992px)
+      flex-wrap: nowrap
+
+.contacts__h3
+  color: #fff
+  font-size: 30px
+  font-weight: bold
+  line-height: 30px
+  padding-top: 1em
+  padding-bottom: 2em
+
+.address-info
+  flex-grow: 1
+  flex-basis: 50%
+
+.address__row-box
+  display: flex
+  flex-direction: row
+  justify-content: flex-start
+
+.address__text
+  display: flex
+  flex-direction: column
+  flex-wrap: nowrap
+  justify-content: space-between
+  align-items: flex-start
+  flex-grow: 1
+  min-height: 220px
+  padding-left: 5px
+  color: #fff
+  font-size: 16px
+  font-weight: 400
+  line-height: 21px
+  dl
+    margin: 0
+    padding: 0
+    clear: both
+    overflow: hidden
+    @media (min-width: 768px)
+      max-width: 250px
+  h5
+    color: #c0dfda
+    font-size: 20px
+    font-weight: 700
+    line-height: 16.8px
+    padding-bottom: 20px
+  dt
+    color: #d0efea
+    margin: 0
+    padding: 0
+    float: left
+    width: 28%
+  dd
+    margin: 0
+    padding: 0
+    float: right
+    width: 72%
+  .decorated
+    text-decoration: underline
+
+.address__map
+  flex-basis: 100%
+  flex-grow: 1
+  @media (min-width: 992px)
+    max-width: 260px
+    min-height: 220px
+  .map
+    width: 100%
+    height: 100%
+
+.contact-form
+  flex-basis: 50%
+  flex-grow: 1
+  margin-left: 20px
+
+.form
+  max-width: 540px
+  .inputs-list
+    display: flex
+    flex-direction: row
+    flex-wrap: wrap
+    justify-content: space-between
+
+.inputs-list__item
+  padding: 2%
+  background-color: #68a097
+  border: none
+  border-radius: 5px
+  margin-bottom: 5px
+  &:nth-child(1)
+    flex-grow: 1
+    margin-right: 10px
+  &:nth-child(2)
+    flex-grow: 1
+  &:nth-child(3)
+    flex-grow: 2
+    max-height: 170px
+    box-sizing: border-box
+  &:focus
+    background-color: #f2f2f2
+
+.submit-btn
+  box-shadow: inset 0 -4px 0 rgba(178, 74, 80, 0.5)
+  background-color: #df5c64
+  font-size: 26px
+  font-weight: 400
+  line-height: 21px
+  text-transform: uppercase
+  border-radius: 5px
+  border: none
+  color: #fff
+  padding: 0.5em 2.5em
+  &:hover
+    background-color: #b24a50
+
+
+
+
